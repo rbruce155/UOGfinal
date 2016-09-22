@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		3270494E1D933810001A5022 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3270494D1D933810001A5022 /* AppDelegate.swift */; };
-		327049501D933810001A5022 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3270494F1D933810001A5022 /* ViewController.swift */; };
+		327049501D933810001A5022 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3270494F1D933810001A5022 /* LoginViewController.swift */; };
 		327049531D933810001A5022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 327049511D933810001A5022 /* Main.storyboard */; };
 		327049561D933810001A5022 /* UOGfinal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 327049541D933810001A5022 /* UOGfinal.xcdatamodeld */; };
 		327049581D933810001A5022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 327049571D933810001A5022 /* Assets.xcassets */; };
 		3270495B1D933810001A5022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 327049591D933810001A5022 /* LaunchScreen.storyboard */; };
 		327049661D933810001A5022 /* UOGfinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327049651D933810001A5022 /* UOGfinalTests.swift */; };
 		327049711D933810001A5022 /* UOGfinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327049701D933810001A5022 /* UOGfinalUITests.swift */; };
+		3270497F1D93651A001A5022 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3270497E1D93651A001A5022 /* CustomCell.swift */; };
+		327049811D936E70001A5022 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327049801D936E70001A5022 /* TableViewController.swift */; };
+		327049841D9374DB001A5022 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 327049831D9374DB001A5022 /* FontAwesome.otf */; };
+		327049861D942AA3001A5022 /* BackButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327049851D942AA3001A5022 /* BackButtonDelegate.swift */; };
+		327049881D942C6F001A5022 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327049871D942C6F001A5022 /* MenuViewController.swift */; };
+		3270498B1D94353D001A5022 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3270498A1D94353D001A5022 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +43,7 @@
 /* Begin PBXFileReference section */
 		3270494A1D933810001A5022 /* UOGfinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UOGfinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3270494D1D933810001A5022 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3270494F1D933810001A5022 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3270494F1D933810001A5022 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		327049521D933810001A5022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		327049551D933810001A5022 /* UOGfinal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UOGfinal.xcdatamodel; sourceTree = "<group>"; };
 		327049571D933810001A5022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		3270496C1D933810001A5022 /* UOGfinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UOGfinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		327049701D933810001A5022 /* UOGfinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UOGfinalUITests.swift; sourceTree = "<group>"; };
 		327049721D933810001A5022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3270497E1D93651A001A5022 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		327049801D936E70001A5022 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		327049831D9374DB001A5022 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
+		327049851D942AA3001A5022 /* BackButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackButtonDelegate.swift; sourceTree = "<group>"; };
+		327049871D942C6F001A5022 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		3270498A1D94353D001A5022 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +112,13 @@
 			isa = PBXGroup;
 			children = (
 				3270494D1D933810001A5022 /* AppDelegate.swift */,
-				3270494F1D933810001A5022 /* ViewController.swift */,
+				327049891D942CE2001A5022 /* Controllers */,
+				327049821D93745F001A5022 /* Fonts */,
 				327049511D933810001A5022 /* Main.storyboard */,
+				327049851D942AA3001A5022 /* BackButtonDelegate.swift */,
+				3270497E1D93651A001A5022 /* CustomCell.swift */,
 				327049571D933810001A5022 /* Assets.xcassets */,
+				3270498A1D94353D001A5022 /* Default-568h@2x.png */,
 				327049591D933810001A5022 /* LaunchScreen.storyboard */,
 				3270495C1D933810001A5022 /* Info.plist */,
 				327049541D933810001A5022 /* UOGfinal.xcdatamodeld */,
@@ -126,6 +142,24 @@
 				327049721D933810001A5022 /* Info.plist */,
 			);
 			path = UOGfinalUITests;
+			sourceTree = "<group>";
+		};
+		327049821D93745F001A5022 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				327049831D9374DB001A5022 /* FontAwesome.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		327049891D942CE2001A5022 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3270494F1D933810001A5022 /* LoginViewController.swift */,
+				327049871D942C6F001A5022 /* MenuViewController.swift */,
+				327049801D936E70001A5022 /* TableViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +269,8 @@
 			files = (
 				3270495B1D933810001A5022 /* LaunchScreen.storyboard in Resources */,
 				327049581D933810001A5022 /* Assets.xcassets in Resources */,
+				327049841D9374DB001A5022 /* FontAwesome.otf in Resources */,
+				3270498B1D94353D001A5022 /* Default-568h@2x.png in Resources */,
 				327049531D933810001A5022 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,8 +296,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				327049501D933810001A5022 /* ViewController.swift in Sources */,
+				327049501D933810001A5022 /* LoginViewController.swift in Sources */,
 				3270494E1D933810001A5022 /* AppDelegate.swift in Sources */,
+				3270497F1D93651A001A5022 /* CustomCell.swift in Sources */,
+				327049881D942C6F001A5022 /* MenuViewController.swift in Sources */,
+				327049861D942AA3001A5022 /* BackButtonDelegate.swift in Sources */,
+				327049811D936E70001A5022 /* TableViewController.swift in Sources */,
 				327049561D933810001A5022 /* UOGfinal.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
